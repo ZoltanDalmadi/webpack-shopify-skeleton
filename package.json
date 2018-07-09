@@ -1,0 +1,22 @@
+{
+  "name": "skeleton-theme",
+  "version": "1.0.0-alpha.1",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack": "^4.15.1",
+    "webpack-command": "^0.4.1"
+  },
+  "scripts": {
+    "build:dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  }
+}
